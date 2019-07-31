@@ -142,7 +142,7 @@ html {
 .hero {
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/772803/pexels-photo-772803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ibb.co/x73ypjj/headimg-2.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -190,15 +190,21 @@ html {
 }
 .hero .hero-inner {
   margin-top: 400px;
-  margin-right: 250px;
+  margin-left: 60%;
   font-size: 2rem;
   text-align: center;
   color: white;
   height: 200px;
+  width: 500px;
+}
+.hero .hero-inner h1 {
+  margin-bottom: 4%;
+  font-size: 3rem;
 }
 .hero .hero-inner h2 {
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-size: 2.5rem;
 }
 .hero .hero-inner .myButton {
   -moz-box-shadow: inset 0px 1px 3px 0px #ffffff;
@@ -264,6 +270,7 @@ html {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  margin-top: 20px;
 }
 .explore .panel1 img {
   width: 30%;
@@ -282,6 +289,7 @@ html {
   flex-direction: row-reverse;
   justify-content: space-evenly;
   width: 100%;
+  margin-top: 20px;
 }
 .explore .panel2 img {
   width: 30%;
@@ -299,6 +307,7 @@ html {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  margin-top: 20px;
 }
 .explore .panel3 img {
   width: 40%;
@@ -317,6 +326,7 @@ html {
   flex-direction: row-reverse;
   justify-content: space-evenly;
   width: 100%;
+  margin-top: 20px;
 }
 .explore .panel4 img {
   width: 40%;
