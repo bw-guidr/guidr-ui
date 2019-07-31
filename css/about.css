@@ -194,14 +194,14 @@ html {
   display: flex;
   justify-content: center;
   height: 60px;
-  background-color: #14162b;
   margin-top: 40px;
-  padding-top: 1%;
+  margin-bottom: 20px;
 }
 .meetTeam p {
   display: flex;
-  font-size: 3rem;
-  color: white;
+  font-size: 4rem;
+  color: #484a4d;
+  font-weight: bold;
 }
 .team {
   display: flex;
@@ -225,7 +225,7 @@ html {
   justify-content: center;
   width: 50%;
   height: auto;
-  margin-left: 72px;
+  margin: 0 auto;
 }
 .team .person h2 {
   display: flex;
