@@ -254,11 +254,11 @@ html {
   justify-content: center;
   align-content: center;
   padding-top: 2%;
-  font-size: 3rem;
-  color: white;
-  background-color: #14162b;
+  font-size: 4rem;
+  color: #484a4d;
   height: 80px;
-  margin-top: 40px;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
 .explore {
   display: flex;
@@ -345,11 +345,11 @@ html {
   justify-content: center;
   align-content: center;
   padding-top: 2%;
-  font-size: 2.5rem;
-  color: white;
-  background-color: #14162b;
+  font-size: 2.8rem;
+  color: #484a4d;
   height: 80px;
-  margin-top: 40px;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
 .ourTours {
   display: flex;
@@ -393,10 +393,10 @@ html {
 .tours {
   display: flex;
   flex-direction: column;
-  background-color: #14162b;
   height: 100px;
-  color: white;
-  margin-top: 40px;
+  color: #484a4d;
+  margin-top: 80px;
+  font-size: 4rem;
 }
 .tours h2 {
   display: flex;
@@ -411,6 +411,27 @@ html {
   width: 100%;
   font-size: 2rem;
   padding-top: 1%;
+}
+.download {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.download .phone {
+  margin-left: 10%;
+}
+.download .apple {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20%;
+}
+.download .apple h2 {
+  font-size: 3rem;
+  margin: 2% auto;
+}
+.download .apple p {
+  margin: 2% auto;
 }
 .socials {
   display: flex;
