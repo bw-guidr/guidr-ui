@@ -138,7 +138,6 @@ html {
   max-width: 1000px;
   margin: 0 auto;
   background-color: #f2f2f2;
-  border: 2px solid blue;
 }
 .topBar {
   display: flex;
@@ -194,66 +193,94 @@ html {
 .meetTeam {
   display: flex;
   justify-content: center;
-  height: 40px;
-  background-color: mistyrose;
-  border: 2px solid blue;
+  height: 60px;
+  background-color: #14162b;
+  margin-top: 40px;
 }
 .meetTeam p {
   display: flex;
   font-size: 3rem;
   color: white;
-  border: 2px solid green;
 }
 .team {
   display: flex;
   justify-content: space-around;
-  background-color: mistyrose;
-  height: 200px;
-  border: 2px solid blue;
+  background-color: #ebfcfc;
+  height: 300px;
 }
 .team .person {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   height: 90%;
   width: 30%;
   margin-top: 1%;
+  background-color: #dee0c4;
   border: 2px solid black;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.46);
+}
+.team .person .image {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  margin-left: 72px;
 }
 .team .person h2 {
   display: flex;
   justify-content: center;
   font-size: 1.5rem;
-  border: 2px solid red;
 }
 .team .person p {
   display: flex;
   justify-content: center;
   font-size: 1.5rem;
-  border: 2px solid red;
 }
 .team .person a {
   display: flex;
   justify-content: center;
   width: 100%;
-  border: 2px solid yellow;
-  border: 2px solid orangered;
 }
-footer {
-  color: #22283B;
-  background: #f4f4f4;
-  padding: 20px 0;
-  border: 1px double #e0e0e0;
-  border-radius: 10px;
+.socials {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #ebfcfc;
+  margin-top: 40px;
+}
+.socials .fol1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  font-size: 2rem;
+}
+.socials .fol1 P {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin: 1% 0%;
 }
-.container2 {
-  max-width: 1000px;
-  height: 1000px;
-  margin: 0 auto;
-  background-image: url("/images/hiking/altitude-clouds-cold-772803.jpg") 50% 0 no-repeat fixed;
-  background-size: cover;
-  border: 2px solid blue;
+.socials .fol2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 5%;
+  font-size: 2rem;
+  margin-left: 47%;
+}
+.socials .fol2 a {
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  margin-top: 1%;
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  background-color: #ebfcfc;
+}
+.foot p {
+  text-decoration: none;
+  margin-top: 1%;
 }
