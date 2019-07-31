@@ -89,6 +89,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: 'Montserrat', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -149,7 +150,6 @@ html {
   background-attachment: fixed;
   display: flex;
   justify-content: center;
-  border: 2px solid green;
 }
 .hero .topBar {
   display: flex;
@@ -157,19 +157,16 @@ html {
   height: 80px;
   position: fixed;
   background-color: #14162b;
-  border: 2px solid red;
 }
 .hero .topBar .logo {
   display: flex;
   width: 50%;
-  border: 2px solid green;
 }
 .hero .topBar .logo img {
-  margin-top: 1%;
+  margin-top: 1.5%;
   margin-left: 20%;
-  width: 230px;
+  width: auto;
   height: 60px;
-  border: 2px solid green;
 }
 .hero .topBar .navBar {
   display: flex;
@@ -178,7 +175,6 @@ html {
   align-items: center;
   margin-left: 25%;
   width: 20%;
-  border: 2px solid blue;
 }
 .hero .topBar .navBar a {
   font-size: 2rem;
@@ -192,15 +188,13 @@ html {
 .hero .logo {
   height: 100px;
   width: 0 auto;
-  border: 2px solid green;
 }
 .hero .hero-inner {
-  margin-top: 460px;
+  margin-top: 400px;
   font-size: 2rem;
   text-align: center;
   color: white;
   height: 200px;
-  border: 2px solid green;
 }
 .hero .hero-inner h2 {
   margin-top: 2%;
@@ -348,7 +342,7 @@ html {
   align-content: center;
   width: 50%;
   font-size: 3rem;
-  padding-top: 7%;
+  padding-top: 2%;
   border: 2px solid yellow;
   border: 2px solid orangered;
 }
@@ -357,7 +351,7 @@ html {
   justify-content: center;
   align-content: center;
   padding-top: 2%;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
   background-color: #14162b;
   height: 80px;
