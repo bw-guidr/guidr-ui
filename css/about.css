@@ -141,68 +141,44 @@ html {
 }
 .topBar {
   display: flex;
-  width: 100%;
-  height: 100px;
-  margin-bottom: 20px;
-  background-color: #2d2b4a;
-  border: 2px solid red;
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  background-color: #14162b;
 }
 .topBar .logo {
   display: flex;
   width: 50%;
-  border: 2px solid green;
 }
 .topBar .logo img {
-  margin-top: 5%;
-  margin-left: 4%;
-  width: 40%;
-  height: 50%;
-  border: 2px solid green;
+  margin-top: 1.5%;
+  margin-left: 20%;
+  width: auto;
+  height: 60px;
 }
 .topBar .navBar {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  margin-right: 2%;
-  width: 50%;
-  border: 2px solid blue;
+  margin-left: 25%;
+  width: 20%;
 }
 .topBar .navBar a {
   font-size: 2rem;
   text-decoration: none;
+  background-color: transparent;
   color: white;
 }
-.tours {
-  display: flex;
-  flex-direction: column;
-  background-color: #2d2b4a;
-  height: 100px;
-  color: white;
-  margin-bottom: 20px;
-  border: 2px solid green;
-}
-.tours h2 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  font-size: 3rem;
-  border: 2px solid yellow;
-  border: 2px solid orangered;
-}
-.tours p {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  font-size: 2rem;
-  border: 2px solid yellow;
-  border: 2px solid orangered;
+.topBar .navBar a:hover {
+  color: #c70185;
 }
 .meetTeam {
   display: flex;
   justify-content: center;
   height: 40px;
   background-color: mistyrose;
+  margin-top: 200px;
   border: 2px solid blue;
 }
 .meetTeam p {
@@ -256,4 +232,11 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
+.container2 {
+  max-width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  background-image: url("/images/hiking/altitude-clouds-cold-772803.jpg") 50% 0 no-repeat fixed;
+  background-size: cover;
+  border: 2px solid blue;
+}
