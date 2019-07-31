@@ -89,6 +89,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: 'Montserrat', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -173,12 +174,28 @@ html {
 .topBar .navBar a:hover {
   color: #c70185;
 }
+.mainVid {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  object-fit: fill;
+  z-index: -1;
+}
+.mainVid .videoContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 .meetTeam {
   display: flex;
   justify-content: center;
   height: 40px;
   background-color: mistyrose;
-  margin-top: 200px;
   border: 2px solid blue;
 }
 .meetTeam p {
