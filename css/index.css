@@ -138,7 +138,6 @@ html {
   max-width: 1200px;
   margin: 0 auto;
   background-color: #f2f2f2;
-  border: 2px solid blue;
 }
 .hero {
   width: 100vw;
@@ -252,7 +251,7 @@ html {
   color: white;
   background-color: #14162b;
   height: 80px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .explore {
   display: flex;
@@ -264,12 +263,10 @@ html {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  border: 2px solid blue;
 }
 .explore .panel1 img {
   width: 30%;
   height: auto;
-  border: 2px solid green;
 }
 .explore .panel1 p {
   display: flex;
@@ -278,20 +275,16 @@ html {
   width: 50%;
   font-size: 3rem;
   padding-top: 15%;
-  border: 2px solid yellow;
-  border: 2px solid orangered;
 }
 .explore .panel2 {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-evenly;
   width: 100%;
-  border: 2px solid blue;
 }
 .explore .panel2 img {
   width: 30%;
   height: auto;
-  border: 2px solid green;
 }
 .explore .panel2 p {
   display: flex;
@@ -300,19 +293,15 @@ html {
   width: 50%;
   font-size: 3rem;
   padding-top: 15%;
-  border: 2px solid yellow;
-  border: 2px solid orangered;
 }
 .explore .panel3 {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  border: 2px solid blue;
 }
 .explore .panel3 img {
   width: 40%;
   height: auto;
-  border: 2px solid green;
 }
 .explore .panel3 p {
   display: flex;
@@ -321,20 +310,16 @@ html {
   width: 50%;
   font-size: 3rem;
   padding-top: 7%;
-  border: 2px solid yellow;
-  border: 2px solid orangered;
 }
 .explore .panel4 {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-evenly;
   width: 100%;
-  border: 2px solid blue;
 }
 .explore .panel4 img {
   width: 40%;
   height: auto;
-  border: 2px solid green;
 }
 .explore .panel4 p {
   display: flex;
@@ -343,8 +328,6 @@ html {
   width: 50%;
   font-size: 3rem;
   padding-top: 2%;
-  border: 2px solid yellow;
-  border: 2px solid orangered;
 }
 .galleryText {
   display: flex;
@@ -355,23 +338,29 @@ html {
   color: white;
   background-color: #14162b;
   height: 80px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .ourTours {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #ebfcfc;
+  height: 1000px;
 }
 .ourTours .tour1 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   width: 50%;
-  border: 2px solid blue;
 }
-.ourTours .tour1 img {
-  width: 80%;
+.ourTours .tour1 .img1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.ourTours .tour1 .img1 img {
+  width: 65%;
   height: auto;
 }
 .ourTours .tour2 {
@@ -379,10 +368,15 @@ html {
   flex-direction: column;
   justify-content: space-evenly;
   width: 50%;
-  border: 2px solid blue;
 }
-.ourTours .tour2 img {
-  width: 60%;
+.ourTours .tour2 .img1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.ourTours .tour2 .img1 img {
+  width: 70%;
   height: auto;
 }
 .tours {
@@ -391,7 +385,7 @@ html {
   background-color: #14162b;
   height: 100px;
   color: white;
-  border: 2px solid green;
+  margin-top: 40px;
 }
 .tours h2 {
   display: flex;
@@ -399,8 +393,6 @@ html {
   width: 100%;
   font-size: 3rem;
   padding-top: 1%;
-  border: 2px solid yellow;
-  border: 2px solid orangered;
 }
 .tours p {
   display: flex;
@@ -408,15 +400,13 @@ html {
   width: 100%;
   font-size: 2rem;
   padding-top: 1%;
-  border: 2px solid yellow;
-  border: 2px solid orangered;
 }
 .socials {
   display: flex;
   flex-direction: column;
   width: 100%;
   background-color: #ebfcfc;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .socials .fol1 {
   display: flex;
