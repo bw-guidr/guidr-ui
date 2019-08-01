@@ -160,6 +160,11 @@ html {
     width: 0%;
   }
 }
+@media (max-width: 414px) {
+  .topBar .logo {
+    width: 0%;
+  }
+}
 .topBar .logo img {
   margin-top: 1.5%;
   margin-left: 20%;
@@ -173,6 +178,12 @@ html {
   }
 }
 @media (max-width: 500px) {
+  .topBar .logo img {
+    margin-left: 0%;
+    display: none;
+  }
+}
+@media (max-width: 414px) {
   .topBar .logo img {
     margin-left: 0%;
     display: none;
@@ -194,6 +205,13 @@ html {
   }
 }
 @media (max-width: 500px) {
+  .topBar .navBar {
+    margin-left: 0%;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 414px) {
   .topBar .navBar {
     margin-left: 0%;
     width: 100%;

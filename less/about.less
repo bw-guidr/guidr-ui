@@ -167,6 +167,7 @@ html {
 //media
 @phone: ~"(max-width: 700px)";
 @iphone: ~"(max-width: 500px)";
+@plus: ~"(max-width: 414px)";
 
 
         //mobile
@@ -203,6 +204,11 @@ html {
           width: 0%;
           
           };//media
+          @media @plus {
+        
+            width: 0%;
+            
+            };//media
       
       img{
           margin-top: 1.5%;
@@ -221,6 +227,11 @@ html {
             //width: 30%;
             display: none;
             };//media
+            @media @plus {
+              margin-left: 0%;
+              //width: 30%;
+              display: none;
+              };//media
           
       }
   };
@@ -244,6 +255,12 @@ html {
         justify-content: space-around;
       };//media
       @media @iphone{
+        margin-left: 0%;
+        //width: 70%;
+        width: 100%;
+        justify-content: space-around;
+      };//media
+      @media @plus{
         margin-left: 0%;
         //width: 70%;
         width: 100%;
