@@ -150,11 +150,22 @@ html {
   display: flex;
   width: 50%;
 }
+@media (max-width: 700px) {
+  .topBar .logo {
+    width: 20%;
+  }
+}
 .topBar .logo img {
   margin-top: 1.5%;
   margin-left: 20%;
   width: auto;
   height: 60px;
+}
+@media (max-width: 700px) {
+  .topBar .logo img {
+    margin-left: 0%;
+    display: none;
+  }
 }
 .topBar .navBar {
   display: flex;
@@ -163,6 +174,14 @@ html {
   align-items: center;
   margin-left: 25%;
   width: 20%;
+  border: 2px solid blue;
+}
+@media (max-width: 700px) {
+  .topBar .navBar {
+    margin-left: 0%;
+    width: 80%;
+    justify-content: space-around;
+  }
 }
 .topBar .navBar a {
   font-size: 2rem;

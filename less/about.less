@@ -163,6 +163,16 @@ html {
     border: 2px solid orangered;
 }
 
+// Mobile var
+//media
+@phone: ~"(max-width: 700px)";
+
+        //mobile
+       // @media @phone{
+        
+      //  }//media
+
+
 // code below
 
 
@@ -181,12 +191,25 @@ html {
       display: flex;
       width: 50%;
       //.border3();
+      @media @phone {
+        
+        width: 20%;
+        
+        };//media
+      
       img{
           margin-top: 1.5%;
           margin-left: 20%;
           width: auto;
           height: 60px;
           //.border3();
+          //mobile
+          @media @phone {
+          margin-left: 0%;
+          //width: 30%;
+          display: none;
+          };//media
+          
       }
   };
 
@@ -199,7 +222,15 @@ html {
       margin-left: 25%;
 
       width: 20%;
-      //.border2();
+      .border2();
+
+       //mobile
+       @media @phone{
+        margin-left: 0%;
+        width: 80%;
+        justify-content: space-around;
+        //display: none;
+      };//media
       
       a{
       font-size: 2rem;
@@ -212,8 +243,8 @@ html {
         color: rgb(199, 1, 133) ;
         //background-color: #cfc ;
       };
-  }
-};//END TOP NAV BAR
+  };
+}//END TOP NAV BAR
 
 //video
 .mainVid{
