@@ -192,7 +192,7 @@ html {
   .logo{
       display: flex;
       width: 50%;
-      .border3();
+      //.border3();
       @media @phone {
         
         width: 0%;
@@ -234,10 +234,16 @@ html {
       margin-left: 25%;
 
       width: 20%;
-      .border2();
+      //.border2();
 
        //mobile
        @media @phone{
+        margin-left: 0%;
+        //width: 70%;
+        width: 100%;
+        justify-content: space-around;
+      };//media
+      @media @iphone{
         margin-left: 0%;
         //width: 70%;
         width: 100%;

@@ -149,7 +149,6 @@ html {
 .topBar .logo {
   display: flex;
   width: 50%;
-  border: 2px solid green;
 }
 @media (max-width: 700px) {
   .topBar .logo {
@@ -186,7 +185,13 @@ html {
   align-items: center;
   margin-left: 25%;
   width: 20%;
-  border: 2px solid blue;
+}
+@media (max-width: 700px) {
+  .topBar .navBar {
+    margin-left: 0%;
+    width: 100%;
+    justify-content: space-around;
+  }
 }
 @media (max-width: 700px) {
   .topBar .navBar {
