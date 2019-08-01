@@ -155,7 +155,7 @@ html {
     width: 0%;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .topBar .logo {
     width: 0%;
   }
@@ -172,7 +172,7 @@ html {
     display: none;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .topBar .logo img {
     margin-left: 0%;
     display: none;
@@ -193,7 +193,7 @@ html {
     justify-content: space-around;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .topBar .navBar {
     margin-left: 0%;
     width: 100%;
