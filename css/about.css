@@ -149,10 +149,16 @@ html {
 .topBar .logo {
   display: flex;
   width: 50%;
+  border: 2px solid green;
 }
 @media (max-width: 700px) {
   .topBar .logo {
-    width: 20%;
+    width: 0%;
+  }
+}
+@media (max-width: 700px) {
+  .topBar .logo {
+    width: 0%;
   }
 }
 .topBar .logo img {
@@ -160,6 +166,12 @@ html {
   margin-left: 20%;
   width: auto;
   height: 60px;
+}
+@media (max-width: 700px) {
+  .topBar .logo img {
+    margin-left: 0%;
+    display: none;
+  }
 }
 @media (max-width: 700px) {
   .topBar .logo img {
@@ -179,7 +191,7 @@ html {
 @media (max-width: 700px) {
   .topBar .navBar {
     margin-left: 0%;
-    width: 80%;
+    width: 100%;
     justify-content: space-around;
   }
 }
